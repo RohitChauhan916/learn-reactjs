@@ -1,9 +1,8 @@
-function Header(props){
-    console.log(props.headerInfo.email);
+function Header({headerInfo}){
     return (
         <div>
         <h1>Welcome to header</h1>
-        <div>{props.headerInfo.email}</div>
+        <div>{headerInfo.email}</div>
         <p>yes</p>
         </div>
     )
