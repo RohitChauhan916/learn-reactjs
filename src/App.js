@@ -5,9 +5,13 @@ import Header from './header';
 import Footer from './footer';
 
 function App() {
+  let headerInfo = {
+    email: "rohitchauhan@gmail.com",
+    phone: "9877889776"
+  }
   return (
     <div className="App">
-      <Header email="rohitchauhan916@gmail.com"/>
+      <Header headerInfo = {headerInfo}/>
       <Footer />
     </div>
   );
