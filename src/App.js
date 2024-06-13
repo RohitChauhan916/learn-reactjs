@@ -11,7 +11,9 @@ function App() {
   }
   return (
     <div className="App">
-      <Header headerInfo = {headerInfo}/>
+      <Header headerInfo = {headerInfo}>
+        <h1>Children</h1>
+      </Header>
       <Footer />
     </div>
   );
